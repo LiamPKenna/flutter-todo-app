@@ -1,16 +1,19 @@
-# todo
+# _Flutter Todo Tracker_
 
-A new Flutter project.
+#### _Simple app for keeping track of prioritized todo items, April 2020_
 
-## Getting Started
+#### By _**Liam Kenna**_
 
-This project is a starting point for a Flutter application.
+## Description
 
-A few resources to get you started if this is your first Flutter project:
+_Material based Flutter application displaying tasks with their priority and details and allowing for full CRUD functionality. Based on tutorial by Simone Alessandria._
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Technologies Used
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+_Dart, Flutter_
+
+### License
+
+_MIT_
+
+Copyright (c) 2020 **_Liam Kenna_**
