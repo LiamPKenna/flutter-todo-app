@@ -16,12 +16,14 @@ class DbHelper {
 
   DbHelper._internal();
 
-  factory DbHelper() => _dbHelper;
+  factory DbHelper() {
+    return _dbHelper;
+  }
 
   static Database _db;
 
   Future<Database> get db async {
-    if (db == null) {
+    if (_db == null) {
       _db = await initializeDb();
     }
     return _db;
