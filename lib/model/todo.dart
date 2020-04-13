@@ -12,7 +12,7 @@ class Todo {
   int get id => _id;
   String get title => _title;
   String get description => _description;
-  int get priority => _id;
+  int get priority => _priority;
   String get date => _date;
 
   set title(String newTitle) {
@@ -28,7 +28,7 @@ class Todo {
   }
 
   set priority(int newPriority) {
-    if (newPriority > 0 && newPriority <= 3) {
+    if (newPriority > 0 && newPriority <= 4) {
       _priority = newPriority;
     }
   }
