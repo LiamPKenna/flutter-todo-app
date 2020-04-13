@@ -22,7 +22,9 @@ class _TodoListState extends State<TodoList> {
     return Scaffold(
       body: todoListItems(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => debugPrint("Press!!!"),
+        onPressed: () {
+          navigateToDetail(Todo('', 3, ''));
+        },
         tooltip: "Add new Todo",
         child: new Icon(Icons.add),
       ),
