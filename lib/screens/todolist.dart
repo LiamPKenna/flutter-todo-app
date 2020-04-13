@@ -45,8 +45,6 @@ class _TodoListState extends State<TodoList> {
                 title: Text(this.todos[position].title),
                 subtitle: Text(this.todos[position].date),
                 onTap: () {
-                  debugPrint(
-                      "Tapped on: " + this.todos[position].id.toString());
                   navigateToDetail(this.todos[position]);
                 }),
           );
@@ -98,5 +96,8 @@ class _TodoListState extends State<TodoList> {
       context,
       MaterialPageRoute(builder: (context) => TodoDetail(todo)),
     );
+    if (result == true) {
+      getData();
+    }
   }
 }
